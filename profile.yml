@@ -1,0 +1,22 @@
+name: Chelse Swoopes
+pronouns: she/her
+role: Ph.D. Candidate in Computer Science
+institution: Harvard University
+email: cswoopes@g.harvard.edu
+scholar: https://scholar.google.com/citations?user=jppB1kwAAAAJ&hl=en
+linkedin: https://www.linkedin.com/in/chelse-swoopes
+cv: /assets/docs/Chelse_Swoopes_CV.pdf
+# Optional: place your headshot at assets/img/headshot.jpg, then uncomment:
+# photo: /assets/img/headshot.jpg
+intro: >-
+  I am a Ph.D. candidate in Computer Science at Harvard University, advised by
+  Prof. Elena L. Glassman in the Variation Lab. I design and evaluate
+  interactive systems that support human sensemaking and judgment when working
+  with AI. My research investigates AI-resilient interfaces: approaches that help
+  people notice, judge, and recover from potentially inappropriate AI behavior.
+background: >-
+  My work spans human–AI interaction, theories of human cognition and concept
+  learning, large language model interfaces, scientific communication, and legal
+  reading and writing. I previously earned an M.Sc. in Electrical Engineering
+  from Carnegie Mellon University and a B.Sc. in Mathematics from Mississippi
+  State University.

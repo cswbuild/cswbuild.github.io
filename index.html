@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{% assign p = site.data.profile %}
+<header class="topbar"><a class="wordmark" href="{{ '/' | relative_url }}">{{ p.name }}</a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#news">News</a><a href="#publications">Publications</a><a href="{{ p.cv | relative_url }}" target="_blank" rel="noopener">CV ↗</a></nav></header>
+<main>
+<section id="about" class="intro">
+  <div class="intro-copy">
+    <p class="eyebrow">Human–AI Interaction · Interface Design</p>
+    <h1>{{ p.name }}</h1>
+    <p class="subtitle">{{ p.role }} <span class="separator">·</span> {{ p.institution }}</p>
+    <p>{{ p.intro }}</p>
+    <p>{{ p.background }}</p>
+    <div class="socials"><a href="mailto:{{ p.email }}">Email ↗</a><a href="{{ p.scholar }}" target="_blank" rel="noopener">Google Scholar ↗</a><a href="{{ p.linkedin }}" target="_blank" rel="noopener">LinkedIn ↗</a><a href="{{ p.cv | relative_url }}" target="_blank" rel="noopener">CV ↗</a></div>
+  </div>
+  <div class="portrait-wrap">
+    {% if p.photo %}<img class="portrait" src="{{ p.photo | relative_url }}" alt="Portrait of {{ p.name }}">{% else %}<div class="portrait placeholder" aria-label="Photo placeholder"><span>CS</span><small>Add your headshot</small></div>{% endif %}
+  </div>
+</section>
+<section id="news" class="news"><div class="section-head"><h2>News</h2></div><ul class="news-list">{% for item in site.data.news %}<li><time>{{ item.date }}</time><span>{{ item.text }}</span></li>{% endfor %}</ul></section>
+<section id="publications"><div class="section-head"><h2>Publications & research</h2><p>Selected work across human–AI interaction, scientific communication, law, and usable privacy.</p></div>
+<div class="filter-row" aria-label="Publication filters"><button class="filter active" data-filter="all" aria-pressed="true">All</button><button class="filter" data-filter="conference" aria-pressed="false">Conferences</button><button class="filter" data-filter="workshop" aria-pressed="false">Workshops</button><button class="filter" data-filter="poster" aria-pressed="false">Posters</button></div>
+<div class="publication-list">{% for pub in site.data.publications %}
+<article class="publication" data-type="{{ pub.type }}">
+  <div class="pub-image">{% if pub.image %}<img src="{{ pub.image | relative_url }}" alt="Preview for {{ pub.title | escape }}" loading="lazy">{% else %}<span class="pub-year">{{ pub.year }}</span><span class="pub-art">{{ pub.type | capitalize }}</span>{% endif %}</div>
+  <div class="pub-details"><p class="pub-venue">{{ pub.venue }} <span class="middot">·</span> {{ pub.year }}</p><h3>{{ pub.title }}</h3><p class="pub-authors">{{ pub.authors | replace: 'Chelse Swoopes', '<strong>Chelse Swoopes</strong>' }}</p>{% if pub.award %}<p class="award">✦ {{ pub.award }}</p>{% endif %}{% if pub.description %}<p class="pub-desc">{{ pub.description }}</p>{% endif %}{% if pub.paper or pub.project or pub.video %}<div class="pub-links">{% if pub.paper %}<a href="{{ pub.paper }}" target="_blank" rel="noopener">Paper ↗</a>{% endif %}{% if pub.project %}<a href="{{ pub.project }}" target="_blank" rel="noopener">Project ↗</a>{% endif %}{% if pub.video %}<a href="{{ pub.video }}" target="_blank" rel="noopener">Video ↗</a>{% endif %}</div>{% endif %}</div>
+</article>{% endfor %}</div></section>
+</main>
+<script>document.querySelectorAll('.filter').forEach(button => {button.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});document.querySelectorAll('.publication').forEach(card=>{card.hidden=button.dataset.filter!=='all'&&card.dataset.type!==button.dataset.filter;});});});</script>

@@ -1,0 +1,10 @@
+title: Chelse Swoopes
+description: Research in human–AI interaction, sensemaking, and AI-resilient interface design.
+url: ""
+baseurl: ""
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .github

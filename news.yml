@@ -1,0 +1,9 @@
+# Customize or remove items; dates are years only when exact announcement dates weren't confirmed.
+- date: '2026'
+  text: 'Named a 2026 Siebel Scholar.'
+- date: '2026'
+  text: 'Presented work on AI-resilient legal workflows and legal reading/writing at CS&Law 2026 (posters).'
+- date: '2025'
+  text: 'CorpusStudio appeared at CHI 2025.'
+- date: '2024'
+  text: 'ChainForge and Supporting Sensemaking of Large Language Model Outputs at Scale received CHI Best Paper Honorable Mentions.'

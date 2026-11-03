@@ -1,0 +1,91 @@
+# Entries are displayed in this order. Leave image blank until you add paper thumbnails.
+- title: 'AI-Resiliency in Legal Work: A Heuristic Evaluation of LLM-Based Workflow Support Tools in Research and Practice'
+  authors: 'Chelse Swoopes, Elena L. Glassman, Aileen Nielsen'
+  venue: 'ACM Symposium on Computer Science and Law · Poster'
+  year: 2026
+  type: poster
+  description: 'A heuristic evaluation of research and commercial legal workflow tools through an AI-resiliency lens.'
+- title: 'Interface Design to Support Legal Reading and Writing: Insights from Interviews with Legal Experts'
+  authors: 'Chelse Swoopes, Ziwei Gu, Elena L. Glassman'
+  venue: 'ACM Symposium on Computer Science and Law · Poster'
+  year: 2026
+  type: poster
+  paper: 'https://arxiv.org/abs/2509.24854'
+  description: 'Interviews with 22 legal professionals on reading, writing, and the contextual fit of novel interface tools.'
+- title: 'Judges are Vulnerable to AI Influence; Interface Design Can Help'
+  authors: 'Aileen Nielsen, Chelse Swoopes, Elena L. Glassman'
+  venue: 'ACM Symposium on Computer Science and Law · Accepted work'
+  year: 2026
+  type: poster
+  description: 'Explores the importance of interface design for AI use in judicial workflows.'
+- title: 'CorpusStudio: Surfacing Emergent Patterns in a Corpus of Prior Work while Writing'
+  authors: 'Hai Dang, Chelse Swoopes, Daniel Buschek, Elena L. Glassman'
+  venue: 'CHI 2025'
+  year: 2025
+  type: conference
+  paper: 'https://doi.org/10.1145/3706598.3713974'
+  description: 'An interactive writing environment that helps writers discover patterns in a corpus of prior work.'
+- title: 'ChainForge: A Visual Toolkit for Prompt Engineering and LLM Hypothesis Testing'
+  authors: 'Ian Arawjo, Chelse Swoopes, Priyan Vaithilingam, Martin Wattenberg, Elena L. Glassman'
+  venue: 'CHI 2024'
+  year: 2024
+  type: conference
+  award: 'Best Paper Honorable Mention'
+  paper: 'https://doi.org/10.1145/3613904.3642016'
+  description: 'A visual toolkit for prompt experimentation, multi-model comparisons, and hypothesis testing.'
+- title: 'Supporting Sensemaking of Large Language Model Outputs at Scale'
+  authors: 'Katy Ilonka Gero, Chelse Swoopes, Ziwei Gu, Jonathan K. Kummerfeld, Elena L. Glassman'
+  venue: 'CHI 2024'
+  year: 2024
+  type: conference
+  award: 'Best Paper Honorable Mention'
+  paper: 'https://doi.org/10.1145/3613904.3642139'
+  description: 'Interactive text renderings for comparing and making sense of many LLM responses.'
+- title: 'The Impact of Revealing Large Language Model Stochasticity on Trust, Reliability, and Anthropomorphization'
+  authors: 'Chelse Swoopes, Tyler Holloway, Elena L. Glassman'
+  venue: 'TREW Workshop at CHI 2024 · Workshop paper'
+  year: 2024
+  type: workshop
+  paper: 'https://arxiv.org/abs/2503.16114'
+  description: 'An empirical study of how showing multiple LLM responses affects experience and perception.'
+- title: 'Reverse Sketching'
+  authors: 'Tyler Holloway, Chelse Swoopes, Ian Arawjo, Hila Peleg, Elena L. Glassman'
+  venue: 'PLATEAU 2023 · Workshop paper'
+  year: 2023
+  type: workshop
+- title: 'Accurate, Explainable, and Private Models: Providing Recourse While Minimizing Training Data Leakage'
+  authors: 'Catherine Huang, Chelse Swoopes, Christina Xiao, Jiaqi Ma, Himabindu Lakkaraju'
+  venue: 'ICML Workshop on New Frontiers in Adversarial Machine Learning 2023'
+  year: 2023
+  type: workshop
+- title: 'An Empirical Analysis of Data Deletion and Opt-Out Choices on 150 Websites'
+  authors: 'Hana Habib, Yixin Zou, Aditi Jannu, Neha Sridhar, Chelse Swoopes, Alessandro Acquisti, Lorrie Faith Cranor, Norman Sadeh, Florian Schaub'
+  venue: 'SOUPS 2019'
+  year: 2019
+  type: conference
+- title: 'Information Sharing, Security Models, and Cyber Defense'
+  authors: 'Michael Jerge, Chelse Swoopes, Mike Ridge, Joe Brule'
+  venue: 'CARIS Workshop 2019 · Shared by request'
+  year: 2019
+  type: workshop
+- title: 'Turtles, Locks, and Bathrooms: Understanding Mental Models of Privacy Through Illustrations'
+  authors: 'Maggie Oates, Yama Ahmadullah, Abigail Marsh, Chelse Swoopes, Shikun Zhang, Rebecca Balebako, Lorrie Faith Cranor'
+  venue: 'Privacy Enhancing Technologies Symposium 2018'
+  year: 2018
+  type: conference
+  award: 'Andreas Pfitzmann Best Student Paper Award'
+- title: 'User Behaviors and Attitudes Under Password Expiration Policies'
+  authors: 'Hana Habib, Pardis Emami Naeini, Summer Devlin, Maggie Oates, Chelse Swoopes, Lujo Bauer, Nicolas Christin, Lorrie Faith Cranor'
+  venue: 'SOUPS 2018'
+  year: 2018
+  type: conference
+- title: "'It's Not Actually That Horrible': Exploring Adoption of Two-Factor Authentication at a University"
+  authors: 'Jessica Colnago, Summer Devlin, Maggie Oates, Chelse Swoopes, Lujo Bauer, Lorrie Faith Cranor, Nicolas Christin'
+  venue: 'CHI 2018'
+  year: 2018
+  type: conference
+- title: '"I Tried to Buy Drugs Online Using Crypto but Failed": Understanding the Usability & Perceptions of Bitcoin'
+  authors: 'Chelse Swoopes, Daniel Stiffler, Saksham Chitkara, David Edelstein, Lorrie Faith Cranor'
+  venue: 'SOUPS 2018 · Poster'
+  year: 2018
+  type: poster
